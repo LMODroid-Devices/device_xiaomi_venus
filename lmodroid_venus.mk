@@ -7,14 +7,14 @@
 $(call inherit-product, device/xiaomi/venus/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := venus
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := M2011K2G
-PRODUCT_NAME := lineage_venus
+PRODUCT_NAME := lmodroid_venus
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
